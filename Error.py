@@ -60,7 +60,7 @@ class TextPathNotGiven(Error):
 
 class AudioPathNotGiven(Error):
     def __init__(self):
-        super(TextPathNotGiven, self).__init__(error_dict['AUDIO_PATH_NOT_GIVEN'])
+        super(AudioPathNotGiven, self).__init__(error_dict['AUDIO_PATH_NOT_GIVEN'])
 
 class LocalPathEmpty(Error):
     def __init__(self):
@@ -68,28 +68,28 @@ class LocalPathEmpty(Error):
 
 class VideoFileNotGiven(Error):
     def __init__(self):
-        super(LocalPathEmpty,  self).__init__(error_dict['VIDEO_FILE_NOT_GIVEN'])
+        super(VideoFileNotGiven,  self).__init__(error_dict['VIDEO_FILE_NOT_GIVEN'])
 
 class AudioFileNotGiven(Error):
     def __init__(self):
-        super(LocalPathEmpty,  self).__init__(error_dict['AUDIO_FILE_NOT_GIVEN'])
+        super(AudioFileNotGiven,  self).__init__(error_dict['AUDIO_FILE_NOT_GIVEN'])
 
 class TextFileNotGiven(Error):
     def __init__(self):
-        super(LocalPathEmpty,  self).__init__(error_dict['TEXT_FILE_NOT_GIVEN'])
+        super(TextFileNotGiven,  self).__init__(error_dict['TEXT_FILE_NOT_GIVEN'])
 
 class VideoExtenstionNotGiven(Error):
     def __init__(self):
-        super(LocalPathEmpty,  self).__init__(error_dict['VIDEO_EXTENSION_NOT_GIVEN'])
+        super(VideoExtenstionNotGiven,  self).__init__(error_dict['VIDEO_EXTENSION_NOT_GIVEN'])
 
 class AudioExtenstionNotGiven(Error):
     def __init__(self):
-        super(LocalPathEmpty,  self).__init__(error_dict['AUDIO_EXTENSION_NOT_GIVEN'])
+        super(AudioExtenstionNotGiven,  self).__init__(error_dict['AUDIO_EXTENSION_NOT_GIVEN'])
 
 class CouldNotCreateAudio(Error):
     def __init__(self):
-        super(LocalPathEmpty,  self).__init__(error_dict['COULD_NOT_CREATE_AUDIO'])
+        super(CouldNotCreateAudio,  self).__init__(error_dict['COULD_NOT_CREATE_AUDIO'])
 
 class CouldNotCreateText(Error):
     def __init__(self):
-        super(LocalPathEmpty,  self).__init__(error_dict['COULD_NOT_CREATE_TEXT'])
+        super(CouldNotCreateText,  self).__init__(error_dict['COULD_NOT_CREATE_TEXT'])
